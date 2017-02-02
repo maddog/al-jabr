@@ -42,17 +42,17 @@ func TestBroken(t *testing.T) {
 	d := NewCoinCounter([]int{2, 3, 5, 6})
 
 	if v := c.Count(5); v != 5 {
-		fmt.Println("CoinCount(5, [1, 2, 3]) != 5")
+		fmt.Println("CoinCount(5, [1, 2, 3]) != 5 ~", v)
 		t.Fail()
 	}
 
 	if v := c.Count(4); v != 4 {
-		fmt.Println("CoinCount(4, [1, 2, 3]) != 4")
+		fmt.Println("CoinCount(4, [1, 2, 3]) != 4 ~", v)
 		t.Fail()
 	}
 
 	if v := d.Count(10); v != 5 {
-		fmt.Println("CoinCount(10, [2, 3, 5, 6]) != 5")
+		fmt.Println("CoinCount(10, [2, 3, 5, 6]) != 5 ~", v)
 		t.Fail()
 	}
 }

@@ -1,3 +1,3 @@
-### A Reunion of Broken Parts pt 2
+### *a reunion of broken parts pt. 2*
 
-:hocho:
+Diogenes :dog:
